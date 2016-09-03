@@ -17,5 +17,14 @@
   </dependencies>
   <build>
     <finalName>projeto</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <outputDirectory>C:\Servidores\apache-tomcat-8.0.33\webapps</outputDirectory>
+            </configuration>
+        </plugin>
+    </plugins>
   </build>
 </project>
